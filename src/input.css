@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer components {
+  .btn {
+    @apply bg-white/10 text-cyan-300 hover:bg-white/20 w-12 h-12 rounded-full shadow-lg transition;
+  }
+}
