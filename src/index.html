@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-stone-950 min-h-screen flex justify-center items-center">
+    <div class="w-72 bg-white rounded-2xl p-2.5 grid grid-cols-4 gap-y-0">
+      <input
+        type="text"
+        class="col-span-4 w-full h-20 bg-pink-200 text-6xl p-5 mt-4 text-end rounded-3xl mb-4 "
+        placeholder="0" id="inputDisplay"
+      />
+
+      <div class="col-span-4 grid grid-cols-4 gap-2 place-items-center">
+
+
+        <button class="bg-pink-200 w-12 h-12 rounded-full shadow-2xl">AC</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">DEL</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">%</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">/</button>
+
+
+        <button class="bg-pink-200 w-12 h-12 rounded-full">7</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">8</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">9</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">*</button>
+
+
+        <button class="bg-pink-200 w-12 h-12 rounded-full">4</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">5</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">6</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">-</button>
+
+        <button class="bg-pink-200 w-12 h-12 rounded-full">1</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">2</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">3</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">+</button>
+
+        <button class="bg-pink-200 w-12 h-12 rounded-full">.</button>
+        <button class="bg-pink-200 w-12 h-12 rounded-full">0</button>
+       
+        
+        
+        <button class="bg-pink-200 w-full h-14 rounded-full col-span-2">=</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
